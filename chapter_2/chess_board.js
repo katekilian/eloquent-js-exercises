@@ -1,10 +1,19 @@
-var chessBoard = "# # # # \n # # # #";
-for (counter = 0; counter < 4; counter++)
-  console.log(chessBoard);
+var chessBoard = "# # # # \n # # # #\n";
+for (counter = 1; counter <= 4; counter++)
+  complete = chessBoard.repeat(counter);
+console.log(complete);
 
 // flexible version
 
 var twoSpaces = "# ";
 grid = prompt("What size would you like your grid to be?", "");
-// row length
-row = console.log(twoSpaces.repeat(grid.toString));
+numColumns = twoSpaces.repeat(grid / 2);
+numRows = "";
+for (counter = 1; counter <= grid; counter += 1) {
+  if (counter % 2 === 0) {
+    numRows = numRows + (" " + numColumns + "\n");
+  } else if (counter % 2 === 1) {
+      numRows = numRows + (numColumns + "\n");
+  }
+}
+console.log(numRows);
