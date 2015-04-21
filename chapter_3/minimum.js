@@ -7,3 +7,11 @@ var findMinimum = function(num1, num2) {
     return num2;
   }
 };
+
+console.log(findMinimum(2,4));
+
+console.log(findMinimum(2,2));
+
+console.log(findMinimum(15,7));
+
+console.log(findMinimum(-15,7));
