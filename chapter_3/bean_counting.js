@@ -5,9 +5,9 @@ var countBs = function(string) {
     return string[i];
     i++;
   }
-  // for (var i = 0; i <= stringLastIndex; i++) {
-  //   return string[i];
-  // }
+  for (var i = 0; i <= stringLastIndex; i++) {
+    return string[i];
+  }
 };
 
 console.log(countBs("hello"));
