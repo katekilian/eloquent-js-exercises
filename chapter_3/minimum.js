@@ -1,3 +1,5 @@
+// jsbin url: http://jsbin.com/joweru/edit?js,console
+
 var findMinimum = function(num1, num2) {
   if (num1 < num2) {
     return num1;
