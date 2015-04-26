@@ -1,3 +1,5 @@
+// jsbin url: http://jsbin.com/nafepu/edit?js,console
+
 // basic chess board
 
 var chessBoard = "# # \n # #\n";
