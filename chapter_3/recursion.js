@@ -1,3 +1,10 @@
+// TO-DO:
+// 1) re-read the problem
+// 2) attempt to solve it using Jeff's process
+// 3) understand why recursion is good - OHHHH.  Is it because "2" is the base case of even-ness?  And what you do with a number greater than two is subtract 2 until you can see if the evenness is true?
+
+// jsbin url: http://jsbin.com/suluzu/edit
+
 // a working answer (except negative case) without recursion...
 
 var isEven = function(num) {
@@ -39,5 +46,3 @@ console.log(isEven(50));
 console.log(isEven(75));
 
 console.log(isEven(-1));
-
-// I know that -1 is getting to the recursive case because I'm getting RangeError: Maximum call stack size exceeded.  So that's good, in a way. I don't really know how to restructure this... at least not at 2:30am.
